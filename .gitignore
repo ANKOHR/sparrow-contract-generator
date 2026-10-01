@@ -1,0 +1,8 @@
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.scg-results.json
+demo/
+*-codex.log
+*-launch.py
+*-prompt.txt

@@ -1,0 +1,1 @@
+"""Sparrow Contract Generator."""

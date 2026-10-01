@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sparrow-contract-generator"
+version = "0.1.0"
+description = "Deterministic lightweight statements of work"
+requires-python = ">=3.10"
+
+[project.scripts]
+scg = "sparrow_contract_generator.cli:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
