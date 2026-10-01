@@ -1,0 +1,7 @@
+Tests: 21 passed (python -m pytest -q).
+Local implementation commit: 957cb8abc93d599dec5d2df3fce3f8dd73019c46
+Installed CLI demo: 0.730 seconds for fixtures, run, report; below 5 seconds.
+
+Built a local-only, CPU-only deterministic Python scg CLI that parses explicit JSONL statements of work, drafts lightweight Markdown SOWs, audits acceptance, signatures and future start dates, reconciles integer fees per currency, and renders Markdown or JSON reports with provenance and unmeasured-savings labels. Included 200 labelled synthetic records with independent expectations, a hand-written five-record example, 21 passing adversarial and acceptance tests, atomic result writes, complete usage and honesty documentation, lessons, measured synthetic demo evidence, and the pending two-week real-use improvement hook. Provisional verdict is maintain as portfolio evidence; final real-use verdict is pending. No publishing performed.
+
+This file records the implementation commit; the following evidence-only commit adds this completion record.
